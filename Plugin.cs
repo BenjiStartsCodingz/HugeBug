@@ -1,23 +1,19 @@
-﻿using UnityEngine;
+
 using GorillaNetworking;
 using GorillaLocomotion;
-using PlayFab;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
-using PlayFab.ClientModels;
 using Photon.Pun;
 using Photon.Realtime;
-using PlayFab.Internal;
 using Steamworks;
-using MelonLoader;
 using System.Numerics;
 
 namespace HugeBug
 {
 
-    public class HugeBug_1 : MonoBehaviour
+    public class Plugin : MonoBehaviour
     {
         void Bug()
             {
